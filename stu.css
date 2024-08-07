@@ -1,0 +1,107 @@
+table,th,td
+{
+    border: solid 2px;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgb(166, 77, 104);
+}
+th,td{
+    height: 20px;
+    width: 100px;
+    padding: 10px;
+}
+th
+{
+    font-size:25px;
+}
+td
+{
+    font-size: 20px;
+    text-align: center;
+}
+.dd
+{
+    justify-content: center;
+    color: white;
+}
+.name
+{
+    display: flex;
+    gap: 130px;
+    padding-left: 35%;
+    font-size: 30px;
+}
+.rno
+{
+    display: flex;
+    gap: 110px;
+    padding-left: 35%;
+    font-size: 30px;
+}
+.dep
+{
+    display: flex;
+    gap: 60px;
+    padding-left: 35%;
+    font-size: 30px;
+}
+.gen
+{
+    display: flex;
+    gap: 10px;
+    padding-left: 35%;
+    font-size: 30px;   
+}
+.phone
+{
+    display: flex;
+    gap: 20px;
+    padding-left: 35%;
+    font-size: 30px;   
+}
+.em
+{
+    display: flex;
+    gap: 130px;
+    padding-left: 35%;
+    font-size: 30px; 
+}
+.sub
+{
+    padding-top: 3%;
+}
+#but
+{
+    font-size: 20px;
+    padding: 0.5%;
+    border-radius: 100px;
+    background-color: rgb(189, 173, 160);
+    border: none;
+    cursor: pointer;   
+}
+#but:hover
+{
+    background-color: rgb(108, 114, 98);
+    transition: 0.5s;
+}
+#but:active
+{
+    color: white;
+    transition: 0.1s;
+}
+.mm
+{
+    border-radius: 30px ;
+    border: none;
+    padding: 1%;
+    font-size: 18px;
+    outline: none;
+}
+.mm:focus
+{
+    border: 2px solid black;
+}
+h2
+{
+    font-size: 30px;
+}

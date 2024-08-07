@@ -1,0 +1,62 @@
+<html>
+    <link rel="stylesheet" href="stu.css">
+    <body style="background-color:rgb(104, 144, 132);">
+        <script src="stu.js"></script>
+        <center><h1>SKCET STUDENT DATABASE</h1><BR>
+            <h2>ENTER YOUR DETAILS</h2><br>
+         
+        <div class="dd"> 
+            <div class="name">
+                <label for="name1">Name :</label>
+                <input id="name1" type="text" placeholder="Enter your name" required class="mm">
+            </div><br>
+
+            <div class="rno">
+                <label for="reg" >Reg No :</label>
+                <input id="reg" type="text" placeholder="Enter your reg number" required class="mm">
+            </div><br>
+
+            <div class="dep">
+                <label for="dept">Department :</label>
+                <input id="dept" type="text" placeholder="Enter your department" required class="mm">
+            </div><br>
+
+            <div class="gen">
+                <label >Gender :</label>
+                <input id="genderm" type="radio" name="gender" required><label>Male</label>
+                <input id="genderf" type="radio" name="gender" required><label>Female</label>
+            </div><br>
+
+            <div class="phone">
+                <label for="ph">Phone Number :</label>
+                <input id="ph" type="text" required class="mm" placeholder="Enter your phone number">
+            </div><br>
+
+            <div class="em">
+                <label for="email">Email :</label>
+                <input id="email" type="email" placeholder="Enter your email" class="mm" required>
+            </div>
+            
+            <div class="sub">
+                <input type="button" value="Submit" onclick="submit1()" id="but">
+            </div> 
+        </div><br><br>
+            
+        <h2>STUDENT DETAILS</h2><br>
+    <div id="main">
+        <table id="tab">
+            <tr>
+            <th>S.No</th>
+            <th >Name</th>
+            <th>Reg No</th>
+            <th>Department</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        </table>
+    </div>
+        </center>
+  
+    </body>
+</html>
